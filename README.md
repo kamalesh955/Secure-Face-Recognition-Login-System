@@ -25,7 +25,7 @@ This project is a secure login system using face recognition. It authenticates t
 1. Clone the repository:
    git clone https://github.com/kamalesh955/Secure-Face-Recognition-Login-System
 2. Install dependencies:
-   -`pip install opencv-python dlib numpy twilio`
+   - `pip install opencv-python dlib numpy twilio`
 3. Set environment variables:
    - `export TWILIO_ACCOUNT_SID='your_account_sid'`
    - `export TWILIO_AUTH_TOKEN='your_auth_token'`
