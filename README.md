@@ -37,7 +37,6 @@ Usage
 Update admin_image_path with the path to the admin's image.
 Run the script:
 bash
-Copy code
 python face_recognition_login.py
 To exit, press 'q'.
 Architecture
