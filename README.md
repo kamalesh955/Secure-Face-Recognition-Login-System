@@ -37,6 +37,6 @@ This project is a secure login system using face recognition. It authenticates t
    To exit, press 'q'.
    
 ## Architecture
-Input: Live webcam feed.
-Processing: Detects and recognizes faces using dlib and OpenCV.
-Output: Displays real-time feedback and sends alerts for unauthorized attempts.
+-Input: Live webcam feed.
+-Processing: Detects and recognizes faces using dlib and OpenCV.
+-Output: Displays real-time feedback and sends alerts for unauthorized attempts.
