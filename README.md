@@ -23,23 +23,20 @@ This project is a secure login system using face recognition. It authenticates t
 
 ## Installation
 1. Clone the repository:
-   ```bash
    git clone https://github.com/yourusername/Secure-Face-Recognition.git
-Install dependencies:
-bash
-pip install opencv-python dlib numpy twilio
-Set environment variables:
-bash
-export TWILIO_ACCOUNT_SID='your_account_sid'
-export TWILIO_AUTH_TOKEN='your_auth_token'
-export TWILIO_PHONE_NUMBER='your_twilio_phone_number'
-Usage
-Update admin_image_path with the path to the admin's image.
-Run the script:
-bash
-python face_recognition_login.py
-To exit, press 'q'.
-Architecture
+2. Install dependencies:
+   pip install opencv-python dlib numpy twilio
+3. Set environment variables:
+   export TWILIO_ACCOUNT_SID='your_account_sid'
+   export TWILIO_AUTH_TOKEN='your_auth_token'
+   export TWILIO_PHONE_NUMBER='your_twilio_phone_number'
+4. Usage
+   Update admin_image_path with the path to the admin's image.
+5. Run the script:
+   python face_recognition_login.py
+   To exit, press 'q'.
+   
+## Architecture
 Input: Live webcam feed.
 Processing: Detects and recognizes faces using dlib and OpenCV.
 Output: Displays real-time feedback and sends alerts for unauthorized attempts.
