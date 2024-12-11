@@ -27,9 +27,9 @@ This project is a secure login system using face recognition. It authenticates t
 2. Install dependencies:
    pip install opencv-python dlib numpy twilio
 3. Set environment variables:
-   export TWILIO_ACCOUNT_SID='your_account_sid'
-   export TWILIO_AUTH_TOKEN='your_auth_token'
-   export TWILIO_PHONE_NUMBER='your_twilio_phone_number'
+   - `export TWILIO_ACCOUNT_SID='your_account_sid'`
+   - export `TWILIO_AUTH_TOKEN='your_auth_token'`
+   - export `TWILIO_PHONE_NUMBER='your_twilio_phone_number'`
 4. Usage
    Update admin_image_path with the path to the admin's image.
 5. Run the script:
