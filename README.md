@@ -34,9 +34,10 @@ This project is a secure login system using face recognition. It authenticates t
    Update admin_image_path with the path to the admin's image.
 5. Run the script:
    python face_recognition_login.py
-   To exit, press 'q'.
+   - `To exit, press 'q'.`
    
 ## Architecture
-`-Input: Live webcam feed.`
-`-Processing: Detects and recognizes faces using dlib and OpenCV.`
-`-Output: Displays real-time feedback and sends alerts for unauthorized attempts.`
+Architecture of the Project.
+   - `Input: Live webcam feed.`
+   - `Processing: Detects and recognizes faces using dlib and OpenCV.`
+   - `Output: Displays real-time feedback and sends alerts for unauthorized attempts.`
